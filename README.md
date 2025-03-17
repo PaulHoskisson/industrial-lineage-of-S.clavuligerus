@@ -8,8 +8,6 @@ Code and data included:
 - 02_Omnilog_biolog_analysis
 - 03_RNA_seq
 
-
-General comments below with further read me details available in each folder.
 --------------------------------
 
 01_Comparitive_genomics_and SNP_calling
@@ -34,7 +32,6 @@ Used to generate a .csv file combining the SNIPPY (https://github.com/tseemann/s
 - 01_get_tidy_data_S_clav_48hours.py
 - 02_get_tidy_data_S_clav_cutdown_48hours.py
 
- 
 (2) all time points using BactExtract 
 - 05_Interleaved_script.R
 - 06_filtering_bactExtract.R
@@ -50,4 +47,25 @@ Used to generate a .csv file combining the SNIPPY (https://github.com/tseemann/s
 
 03_RNA_seq
 - Used for differential expression comparison and figure generation of the RNA-seq data (available: Gene Expression Omnibus (GEO): GSE212322)).  A range of starter files and those referenced in the R-script are included.
+
+bash.salmon.bash
+- Bash script with GEO reference numbers for each raw_read file.  Add these files to the "raw_data" folder and ensure named e.g. "raw_data/SC2_1/SC2_2_1.fq.gz".  This will generate the quantification files referenced in the main R-script using Salmon (https://combine-lab.github.io/salmon/getting_started/).
+
+01_Deseq_17_03_25.R
+- Major R-script performing differential analysis of Salmon processed RNA-seq fastq data.
+- Major steps:
+- - import conditional files
+- - add row names to the data frame
+- - Select desired columns
+- - Get paths to quant files
+- - assign anmes to quant files
+- - read tx2genes file (included: "tx2gene_01-07-24.csv")
+- - Perform tximport
+- - Perform differential expression analysis using DESeq2 (there are several substeps here).
+- - - There are several steps here for generating human readable output files including adding KEGG data to the files.
+- - Generate PCA plot
+- - Generate figure 5C using phylogenetic tree values and PCA plit coordinates
+- - Isolate differential expressed genes for files and Venn Diagram plotting (figure 5A)
+- - Generate heatmaps for supplementary figures
+- - 
 
