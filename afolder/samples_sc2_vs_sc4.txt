@@ -1,7 +1,0 @@
-Run Condition
-SC2_1 A
-SC2_2 A
-SC2_3 A
-SC4_1 B
-SC4_2 B
-SC4_3 B
