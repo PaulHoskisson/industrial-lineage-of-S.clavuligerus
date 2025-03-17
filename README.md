@@ -67,5 +67,5 @@ bash.salmon.bash
 - - Generate figure 5C using phylogenetic tree values and PCA plit coordinates
 - - Isolate differential expressed genes for files and Venn Diagram plotting (figure 5A)
 - - Generate heatmaps for supplementary figures
-- - 
+- - generate figure for dN/dS analysis.
 
