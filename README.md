@@ -26,4 +26,6 @@ Used to generate a .csv file combining the SNIPPY (https://github.com/tseemann/s
 ---------------------------------
 
 02_Omnilog_biolog_and_SNP_calling     
-Used in the processing of biolog data.  Two major routes taken either analysing 48h of sample, or all using BactExtract (https://github.com/veeninglab/BactEXTRACT).
+- Used in the processing of biolog data.  Two major routes taken either analysing 48h of sample, or all using BactExtract (https://github.com/veeninglab/BactEXTRACT).
+
+- - test
