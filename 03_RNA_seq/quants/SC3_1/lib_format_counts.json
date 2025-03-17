@@ -1,0 +1,22 @@
+{
+    "read_files": "[ /Users/johnmunnoch/Documents/Work/1-Post-doc_Strathy-iUK-GSK/15_BIV_GSK_sequencing/RNA-seq/RNA-extraction-results/Novogene_data/X204SC21092826-Z01-F001/raw_data/SC3_1/SC3_1_1.fq.gz, /Users/johnmunnoch/Documents/Work/1-Post-doc_Strathy-iUK-GSK/15_BIV_GSK_sequencing/RNA-seq/RNA-extraction-results/Novogene_data/X204SC21092826-Z01-F001/raw_data/SC3_1/SC3_1_2.fq.gz]",
+    "expected_format": "ISR",
+    "compatible_fragment_ratio": 1.0,
+    "num_compatible_fragments": 6547322,
+    "num_assigned_fragments": 6547322,
+    "num_frags_with_concordant_consistent_mappings": 6002476,
+    "num_frags_with_inconsistent_or_orphan_mappings": 568103,
+    "strand_mapping_bias": 0.001110805835965846,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 6675,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 6002476,
+    "SF": 276518,
+    "SR": 284910,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}

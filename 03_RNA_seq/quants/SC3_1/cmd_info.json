@@ -1,0 +1,9 @@
+{
+    "salmon_version": "1.10.3",
+    "libType": "A",
+    "index": "SCLAV_SC2",
+    "mates1": "/Users/johnmunnoch/Documents/Work/1-Post-doc_Strathy-iUK-GSK/15_BIV_GSK_sequencing/RNA-seq/RNA-extraction-results/Novogene_data/X204SC21092826-Z01-F001/raw_data/SC3_1/SC3_1_1.fq.gz",
+    "mates2": "/Users/johnmunnoch/Documents/Work/1-Post-doc_Strathy-iUK-GSK/15_BIV_GSK_sequencing/RNA-seq/RNA-extraction-results/Novogene_data/X204SC21092826-Z01-F001/raw_data/SC3_1/SC3_1_2.fq.gz",
+    "output": "SC3_1/",
+    "auxDir": "aux_info"
+}
