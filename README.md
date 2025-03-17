@@ -26,6 +26,15 @@ Used to generate a .csv file combining the SNIPPY (https://github.com/tseemann/s
 ---------------------------------
 
 02_Omnilog_biolog_and_SNP_calling     
-- Used in the processing of biolog data.  Two major routes taken either analysing 48h of sample, or all using BactExtract (https://github.com/veeninglab/BactEXTRACT).
+- Used in the processing of biolog data.  Two major routes taken either: (1) analysing 48h of sample, or (2) all using BactExtract (https://github.com/veeninglab/BactEXTRACT).  Major files included here are for data manipulation and ploting.
 
-- - test
+(1)
+- - 01_get_tidy_data_S_clav_48hours.py
+- - 02_get_tidy_data_S_clav_cutdown_48hours.py
+- - 03_growth_curve_plots_48h.R
+- - 04_growth_curve_plots_cutdown_48h.R
+ 
+(2)
+- - 05_Interleaved_script.R
+- - 06_filtering_bactExtract.R
+
