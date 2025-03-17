@@ -8,6 +8,8 @@ Code and data included:
 - 02_Omnilog_biolog_analysis
 - 03_RNA_seq
 
+
+General comments below with further read me details available in each folder.
 --------------------------------
 
 01_Comparitive_genomics_and SNP_calling
@@ -43,3 +45,9 @@ Used to generate a .csv file combining the SNIPPY (https://github.com/tseemann/s
 - Diet_breadth_R_graph_24-6-24.R
 - pheatmap_R-script_17-6-24.R
 - Violin_plot_24_6_24.R
+
+---------------------------------
+
+03_RNA_seq
+- Used for differential expression comparison and figure generation of the RNA-seq data (available: Gene Expression Omnibus (GEO): GSE212322)).  A range of starter files and those referenced in the R-script are included.
+
