@@ -7,7 +7,7 @@ Code and data included:
 - 01_Comparitive_genomics_and_SNP_calling
 - 02_Omnilog_biolog_analysis
 - 03_RNA_seq
-- Supplementary 
+- Supplementary_material
 
 --------------------------------
 
@@ -69,4 +69,20 @@ bash.salmon.bash
 - - Isolate differential expressed genes for files and Venn Diagram plotting (figure 5A)
 - - Generate heatmaps for supplementary figures
 - - generate figure for dN/dS analysis.
+
+----------------------------------
+
+Supplementary_material
+- Supplementary material for the manuscript.
+- Supplementry_Table_1_and_1-30_figures_01_07_24.docx
+- Supplementary table 2. Combined SNPs from SC2-SC6_17_03_25.csv
+- Supplementary table 3. Gene Ontology results.csv
+- Supplementary table 4. Master table of unfiltered RNA-seq DEGs.csv
+- Supplementary table 5. List of SC2-SC3 DEGs (169).csv
+- Supplementary table 6. List of SC2-SC4 DEGs (512).csv
+- Supplementary table 7. List of SC4-SC5 DEGs (1727).csv
+- Supplementary table 8. List of SC5-SC6 DEGs (1770).csv
+- Supplementary table 9. List of SC2-SC6 DEGs (276).csv
+- Supplementary table 10. List of SC2v-All DEG (37) .csv
+- Supplementary File 1.docx
 
