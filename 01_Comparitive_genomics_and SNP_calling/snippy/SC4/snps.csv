@@ -1,0 +1,16 @@
+CHROM,POS,TYPE,REF,ALT,EVIDENCE,FTYPE,STRAND,NT_POS,AA_POS,EFFECT,LOCUS_TAG,GENE,PRODUCT
+SC2-1_Chromosome,196635,snp,C,T,T:119 C:0,CDS,+,832/903,278/300,missense_variant c.832C>T p.Arg278Trp,SCLAV_SC2_00630,,hypothetical protein
+SC2-1_Chromosome,923604,complex,CTGCGGAAGTCGTCGGACCC,GTGCGTAAGTCGTCGGACCT,GTGCGTAAGTCGTCGGACCT:1 CTGCGGAAGTCGTCGGACCC:0
+SC2-1_Chromosome,1721767,snp,C,T,T:150 C:0,CDS,-,2246/2310,749/769,missense_variant c.2246G>A p.Gly749Asp,SCLAV_SC2_06955,,Heme uptake protein MmpL11
+SC2-1_Chromosome,1749364,snp,G,C,C:277 G:0,CDS,+,162/813,54/270,synonymous_variant c.162G>C p.Ala54Ala,SCLAV_SC2_07040,,hypothetical protein
+SC2-1_Chromosome,1795250,snp,T,C,C:189 T:0,CDS,+,713/828,238/275,missense_variant c.713T>C p.Val238Ala,SCLAV_SC2_07245,,hypothetical protein
+SC2-1_Chromosome,2044248,snp,A,G,G:245 A:0,CDS,-,768/1869,256/622,synonymous_variant c.768T>C p.Ile256Ile,SCLAV_SC2_08335,lepA,Elongation factor 4
+SC2-1_Chromosome,4342572,del,GC,G,G:233 GC:0,CDS,-,140/1410,47/469,frameshift_variant c.140delG p.Gly47fs,SCLAV_SC2_18190,,hypothetical protein
+SC2-1_Chromosome,4640887,snp,T,C,C:254 T:1,CDS,-,579/612,193/203,synonymous_variant c.579A>G p.Pro193Pro,SCLAV_SC2_19525,,hypothetical protein
+SC2-1_Chromosome,5241113,snp,G,T,T:205 G:0,CDS,+,1785/2355,595/784,synonymous_variant c.1785G>T p.Arg595Arg,SCLAV_SC2_21990,recG,ATP-dependent DNA helicase RecG
+SC2-1_Chromosome,5786726,del,CG,C,C:105 CG:1
+SC2-1_Chromosome,6532168,snp,G,A,A:210 G:0,CDS,-,411/1443,137/480,synonymous_variant c.411C>T p.His137His,SCLAV_SC2_27080,ptlI_1,Pentalenene oxygenase
+SC2-1_Chromosome,6532175,snp,C,T,T:200 C:0,CDS,-,404/1443,135/480,missense_variant c.404G>A p.Ser135Asn,SCLAV_SC2_27080,ptlI_1,Pentalenene oxygenase
+SC2-1_pSCL2,148551,mnp,CG,GT,GT:807 CG:3
+SC2-1_pSCL3,133,del,CGAA,C,C:17 CGAA:3
+SC2-1_pSCL4,233391,snp,G,A,A:82 G:0,CDS,+,361/2298,121/765,missense_variant c.361G>A p.Glu121Lys,SCLAV_SC2_31875,afsR_9,Regulatory protein AfsR

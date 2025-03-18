@@ -1,0 +1,22 @@
+CHROM,POS,TYPE,REF,ALT,EVIDENCE,FTYPE,STRAND,NT_POS,AA_POS,EFFECT,LOCUS_TAG,GENE,PRODUCT
+SC2-1_Chromosome,196635,snp,C,T,T:103 C:0,CDS,+,832/903,278/300,missense_variant c.832C>T p.Arg278Trp,SCLAV_SC2_00630,,hypothetical protein
+SC2-1_Chromosome,938735,mnp,CC,AA,AA:166 CC:0,CDS,+,236/642,79/213,missense_variant c.236_237delCCinsAA p.Ala79Glu,SCLAV_SC2_03555,,hypothetical protein
+SC2-1_Chromosome,1280332,snp,C,T,T:209 C:0,CDS,+,573/1536,191/511,synonymous_variant c.573C>T p.Pro191Pro,SCLAV_SC2_05055,,hypothetical protein
+SC2-1_Chromosome,1643581,snp,A,G,G:200 A:0,CDS,-,740/813,247/270,missense_variant c.740T>C p.Val247Ala,SCLAV_SC2_06610,qcrC,Cytochrome bc1 complex cytochrome c subunit
+SC2-1_Chromosome,1721767,snp,C,T,T:155 C:0,CDS,-,2246/2310,749/769,missense_variant c.2246G>A p.Gly749Asp,SCLAV_SC2_06955,,Heme uptake protein MmpL11
+SC2-1_Chromosome,1749364,snp,G,C,C:205 G:0,CDS,+,162/813,54/270,synonymous_variant c.162G>C p.Ala54Ala,SCLAV_SC2_07040,,hypothetical protein
+SC2-1_Chromosome,1795250,snp,T,C,C:194 T:0,CDS,+,713/828,238/275,missense_variant c.713T>C p.Val238Ala,SCLAV_SC2_07245,,hypothetical protein
+SC2-1_Chromosome,1845719,snp,T,C,C:192 T:0,CDS,-,550/1086,184/361,missense_variant c.550A>G p.Ile184Val,SCLAV_SC2_07465,,hypothetical protein
+SC2-1_Chromosome,2044248,snp,A,G,G:233 A:0,CDS,-,768/1869,256/622,synonymous_variant c.768T>C p.Ile256Ile,SCLAV_SC2_08335,lepA,Elongation factor 4
+SC2-1_Chromosome,2346389,snp,G,A,A:159 G:0,CDS,+,155/651,52/216,missense_variant c.155G>A p.Arg52His,SCLAV_SC2_09540,yxeN,putative amino-acid permease protein YxeN
+SC2-1_Chromosome,2555221,snp,G,T,T:146 G:0,CDS,-,131/168,44/55,missense_variant c.131C>A p.Pro44Gln,SCLAV_SC2_10410,,hypothetical protein
+SC2-1_Chromosome,2839515,del,GCTCGCGGCGGAACGCGGCGAGGCCCCCGGGGAGCGGTCCCCGGGGGC,G,G:31 GCTCGCGGCGGAACGCGGCGAGGCCCCCGGGGAGCGGTCCCCGGGGGC:2
+SC2-1_Chromosome,4342572,del,GC,G,G:199 GC:0,CDS,-,140/1410,47/469,frameshift_variant c.140delG p.Gly47fs,SCLAV_SC2_18190,,hypothetical protein
+SC2-1_Chromosome,4573592,snp,C,T,T:199 C:0,CDS,-,117/1032,39/343,stop_gained c.117G>A p.Trp39*,SCLAV_SC2_19230,glpX,"Fructose-1,6-bisphosphatase class 2"
+SC2-1_Chromosome,4640887,snp,T,C,C:228 T:1,CDS,-,579/612,193/203,synonymous_variant c.579A>G p.Pro193Pro,SCLAV_SC2_19525,,hypothetical protein
+SC2-1_Chromosome,5241113,snp,G,T,T:160 G:0,CDS,+,1785/2355,595/784,synonymous_variant c.1785G>T p.Arg595Arg,SCLAV_SC2_21990,recG,ATP-dependent DNA helicase RecG
+SC2-1_Chromosome,5786726,del,CG,C,C:106 CG:0
+SC2-1_Chromosome,6532168,snp,G,A,A:201 G:0,CDS,-,411/1443,137/480,synonymous_variant c.411C>T p.His137His,SCLAV_SC2_27080,ptlI_1,Pentalenene oxygenase
+SC2-1_Chromosome,6532175,snp,C,T,T:186 C:0,CDS,-,404/1443,135/480,missense_variant c.404G>A p.Ser135Asn,SCLAV_SC2_27080,ptlI_1,Pentalenene oxygenase
+SC2-1_pSCL2,148551,mnp,CG,GT,GT:667 CG:1
+SC2-1_pSCL4,233391,snp,G,A,A:204 G:0,CDS,+,361/2298,121/765,missense_variant c.361G>A p.Glu121Lys,SCLAV_SC2_31875,afsR_9,Regulatory protein AfsR
