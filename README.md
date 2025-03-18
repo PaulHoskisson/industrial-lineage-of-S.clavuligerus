@@ -7,6 +7,7 @@ Code and data included:
 - 01_Comparitive_genomics_and_SNP_calling
 - 02_Omnilog_biolog_analysis
 - 03_RNA_seq
+- Supplementary 
 
 --------------------------------
 
