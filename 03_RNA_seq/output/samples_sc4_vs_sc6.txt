@@ -1,0 +1,7 @@
+Run Condition
+SC4_1 A
+SC4_2 A
+SC4_3 A
+SC6_1 B
+SC6_2 B
+SC6_3 B
