@@ -1,0 +1,8 @@
+organism: Streptomyces clavuligerus ATCC_27064 pSCL
+contigs: 5
+bases: 8194333
+tRNA: 89
+tmRNA: 1
+CDS: 6731
+gene: 6839
+rRNA: 18

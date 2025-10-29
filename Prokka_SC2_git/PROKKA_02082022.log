@@ -1,0 +1,968 @@
+[09:50:32] This is prokka 1.12
+[09:50:32] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[09:50:32] Homepage is https://github.com/tseemann/prokka
+[09:50:32] Local time is Tue Feb  8 09:50:32 2022
+[09:50:32] You are ubuntu
+[09:50:32] Operating system is linux
+[09:50:32] You have BioPerl 1.006924
+[09:50:32] System has 4 cores.
+[09:50:32] Option --cpu asked for 8 cores, but system only has 4
+[09:50:32] Will use maximum of 4 cores.
+[09:50:32] Annotating as >>> Bacteria <<<
+[09:50:32] Enabling options to ensure Genbank/ENA/DDJB submission compliance.
+[09:50:32] Creating new output folder: /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2/
+[09:50:32] Running: mkdir -p \/home\/ubuntu\/JTM_data\/BIV_lineage\/final_analysis\/SC2_final\/prokka_SC2\/
+[09:50:32] Using filename prefix: PROKKA_02082022.XXX
+[09:50:32] Setting HMMER_NCPU=1
+[09:50:32] Writing log to: /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2//PROKKA_02082022.log
+[09:50:32] Command: /home/ubuntu/miniconda3/bin/prokka --outdir /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2/ --addgenes --locustag SCLAV_SC2 --increment 5 --compliant --genus Streptomyces -species clavuligerus --strain ATCC_27064 --plasmid pSCL --gcode 11 --proteins /home/ubuntu/JTM_data/BIV_lineage/prokka_annotations/CM000913-14.gb /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/SC2_19-01-22_snippy.fa --force
+[09:50:32] Appending to PATH: /home/ubuntu/miniconda3/bin/../binaries/linux
+[09:50:32] Appending to PATH: /home/ubuntu/miniconda3/bin
+[09:50:32] Looking for 'aragorn' - found /home/ubuntu/miniconda3/bin/aragorn
+[09:50:32] Determined aragorn version is 1.2
+[09:50:32] Looking for 'barrnap' - found /home/ubuntu/miniconda3/bin/barrnap
+[09:50:32] Determined barrnap version is 0.9
+[09:50:32] Looking for 'blastp' - found /home/ubuntu/miniconda3/bin/blastp
+[09:50:33] Determined blastp version is 2.5
+[09:50:33] Looking for 'cmpress' - found /home/ubuntu/miniconda3/bin/cmpress
+[09:50:33] Determined cmpress version is 1.1
+[09:50:33] Looking for 'cmscan' - found /home/ubuntu/miniconda3/bin/cmscan
+[09:50:33] Determined cmscan version is 1.1
+[09:50:33] Looking for 'egrep' - found /bin/egrep
+[09:50:33] Looking for 'find' - found /usr/bin/find
+[09:50:33] Looking for 'grep' - found /bin/grep
+[09:50:33] Looking for 'hmmpress' - found /home/ubuntu/miniconda3/bin/hmmpress
+[09:50:33] Determined hmmpress version is 3.3
+[09:50:33] Looking for 'hmmscan' - found /home/ubuntu/miniconda3/bin/hmmscan
+[09:50:33] Determined hmmscan version is 3.3
+[09:50:33] Looking for 'java' - found /home/ubuntu/miniconda3/bin/java
+[09:50:33] Looking for 'less' - found /home/linuxbrew/.linuxbrew/bin/less
+[09:50:33] Looking for 'makeblastdb' - found /home/ubuntu/miniconda3/bin/makeblastdb
+[09:50:34] Determined makeblastdb version is 2.5
+[09:50:34] Looking for 'minced' - found /home/ubuntu/miniconda3/bin/minced
+[09:50:35] Determined minced version is 4.2
+[09:50:35] Looking for 'parallel' - found /home/ubuntu/miniconda3/bin/parallel
+[09:50:36] Determined parallel version is 20160622
+[09:50:36] Looking for 'prodigal' - found /home/ubuntu/miniconda3/bin/prodigal
+[09:50:36] Determined prodigal version is 2.6
+[09:50:36] Looking for 'prokka-genbank_to_fasta_db' - found /home/ubuntu/miniconda3/bin/prokka-genbank_to_fasta_db
+[09:50:36] Looking for 'sed' - found /bin/sed
+[09:50:36] Looking for 'tbl2asn' - found /home/ubuntu/miniconda3/bin/tbl2asn
+[09:50:37] Determined tbl2asn version is 25.8
+[09:50:37] Using genetic code table 11.
+[09:50:37] Loading and checking input file: /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/SC2_19-01-22_snippy.fa
+[09:50:37] Wrote 5 contigs totalling 8194333 bp.
+[09:50:37] Predicting tRNAs and tmRNAs
+[09:50:37] Running: aragorn -l -gc11  -w \/home\/ubuntu\/JTM_data\/BIV_lineage\/final_analysis\/SC2_final\/prokka_SC2\/\/PROKKA_02082022\.fna
+[09:50:49] 1 tRNA-Arg [119521,119617] 37 (acg)
+[09:50:49] 2 tRNA-Ala [167233,167328] 36 (cgc)
+[09:50:49] 3 tRNA-Ala [174555,174633] 37 (cgc)
+[09:50:49] 4 tRNA-Glu c[253805,253895] 35 (ttc)
+[09:50:49] tRNA [411459,411536] is a pseudo/wacky gene - skipping.
+[09:50:49] 6 tRNA-Asp [458401,458477] 37 (gtc)
+[09:50:49] 7 tRNA-Gly [718525,718599] 33 (ccc)
+[09:50:49] 8 tRNA-Val c[973144,973216] 33 (cac)
+[09:50:49] 9 tRNA-Val c[973973,974045] 33 (cac)
+[09:50:49] 10 tRNA-Gly [980664,980737] 34 (gcc)
+[09:50:49] 11 tRNA-Cys [980772,980845] 33 (gca)
+[09:50:49] 12 tRNA-Val [980847,980919] 33 (gac)
+[09:50:49] 13 tRNA-Val [980949,981021] 33 (gac)
+[09:50:49] 14 tRNA-Val [981087,981161] 33 (gac)
+[09:50:49] 15 tRNA-Leu [1127416,1127503] 34 (gag)
+[09:50:49] 16 tRNA-Val c[1168675,1168751] 35 (gac)
+[09:50:49] 17 tRNA-Leu [1454219,1454292] 34 (caa)
+[09:50:49] 18 tRNA-Val c[1890032,1890106] 33 (tac)
+[09:50:49] 19 tRNA-Met c[1960496,1960571] 35 (cat)
+[09:50:49] 20 tRNA-Asn c[1960749,1960822] 34 (gtt)
+[09:50:49] 21 tRNA-Asn c[1960827,1960900] 34 (gtt)
+[09:50:49] 22 tRNA-Ala c[2057926,2057999] 34 (ggc)
+[09:50:49] 23 tRNA-Ala c[2058677,2058750] 34 (ggc)
+[09:50:49] 24 tRNA-Pro c[2110740,2110816] 35 (tgg)
+[09:50:49] 25 tRNA-Gly [2111031,2111104] 33 (tcc)
+[09:50:49] 26 tRNA-Arg [2191816,2191889] 34 (tct)
+[09:50:49] 27 tRNA-His [2320018,2320091] 34 (gtg)
+[09:50:49] 28 tRNA-Lys [2334511,2334586] 35 (ctt)
+[09:50:49] 29 tRNA-Lys [2348630,2348704] 35 (ctt)
+[09:50:49] 30 tRNA-Lys [2352838,2352912] 35 (ctt)
+[09:50:49] 31 tRNA-Leu [2384051,2384137] 34 (tag)
+[09:50:49] 32 tRNA-Cys [2427283,2427357] 34 (gca)
+[09:50:49] 33 tmRNA c[2453930,2454323] 96,146 ANSKRDNSEAFALAA**
+[09:50:49] 34 tRNA-Leu c[2603562,2603645] 33 (taa)
+[09:50:49] 35 tRNA-Pro [2617061,2617144] 35 (cgg)
+[09:50:49] 36 tRNA-Gln [2649999,2650072] 33 (ttg)
+[09:50:49] 37 tRNA-Ala c[2734570,2734645] 35 (cgc)
+[09:50:49] 38 tRNA-Thr [2884285,2884359] 35 (cgt)
+[09:50:49] 39 tRNA-Pro [3018727,3018801] 35 (cgg)
+[09:50:49] 40 tRNA-Gly [3142196,3142269] 33 (ccc)
+[09:50:49] 41 tRNA-Asn [3226890,3226982] 37 (gtt)
+[09:50:49] 42 tRNA-Arg c[3301526,3301599] 34 (acg)
+[09:50:49] 43 tRNA-Ser c[3301882,3301975] 37 (gct)
+[09:50:49] 44 tRNA-Ser c[3322229,3322318] 35 (tga)
+[09:50:49] 45 tRNA-Ile [3429070,3429146] 35 (gat)
+[09:50:49] 46 tRNA-Ala [3432088,3432161] 34 (tgc)
+[09:50:49] 47 tRNA-Leu [3470386,3470472] 35 (cag)
+[09:50:49] 48 tRNA-Ser c[3569431,3569519] 35 (cga)
+[09:50:49] 49 tRNA-Ser c[3623407,3623494] 35 (gga)
+[09:50:49] 50 tRNA-Gly c[3632799,3632872] 34 (gcc)
+[09:50:49] 51 tRNA-Gly c[3636971,3637044] 34 (gcc)
+[09:50:49] 52 tRNA-Asp c[3652332,3652407] 36 (gtc)
+[09:50:49] 53 tRNA-Phe c[3660009,3660084] 35 (gaa)
+[09:50:49] 54 tRNA-Asp c[3660106,3660181] 36 (gtc)
+[09:50:49] 55 tRNA-Glu c[3660219,3660292] 35 (ttc)
+[09:50:49] 56 tRNA-Lys [3667335,3667409] 34 (ttt)
+[09:50:49] 57 tRNA-Met [3676408,3676482] 35 (cat)
+[09:50:49] 58 tRNA-Pro c[3780272,3780368] 35 (ggg)
+[09:50:49] 59 tRNA-Thr [3789475,3789548] 34 (tgt)
+[09:50:49] 60 tRNA-Leu c[3944786,3944885] 37 (gag)
+[09:50:49] 61 tRNA-Arg c[4091920,4091993] 34 (cct)
+[09:50:49] 62 tRNA-Tyr [4204264,4204346] 35 (gta)
+[09:50:49] 63 tRNA-Thr [4208116,4208189] 34 (ggt)
+[09:50:49] 64 tRNA-Met [4208235,4208308] 34 (cat)
+[09:50:49] 65 tRNA-Trp [4213531,4213604] 34 (cca)
+[09:50:49] 66 tRNA-Ser [4263163,4263258] 35 (gct)
+[09:50:49] 67 tRNA-Met [4709451,4709525] 35 (cat)
+[09:50:49] 68 tRNA-Met [4712488,4712562] 35 (cat)
+[09:50:49] 69 tRNA-Arg c[4915102,4915174] 34 (ccg)
+[09:50:49] 70 tRNA-Ala c[5179415,5179495] 37 (ggc)
+[09:50:49] 71 tRNA-Gln [5225152,5225224] 34 (ctg)
+[09:50:49] 72 tRNA-Glu [5225245,5225318] 35 (ctc)
+[09:50:49] 73 tRNA-Glu [5225403,5225476] 35 (ctc)
+[09:50:49] 74 tRNA-Gln [5225491,5225563] 34 (ctg)
+[09:50:51] 75 tRNA-Glu [5225587,5225660] 35 (ctc)
+[09:50:51] 76 tRNA-Leu [5296430,5296506] 37 (cag)
+[09:50:51] 77 tRNA-Thr [5391299,5391372] 34 (ggt)
+[09:50:51] 78 tRNA-Leu [6022378,6022465] 34 (gag)
+[09:50:51] 79 tRNA-Arg c[6142239,6142315] 33 (ccg)
+[09:50:51] 80 tRNA-Pro [6190458,6190534] 35 (ggg)
+[09:50:51] 81 tRNA-Pro [6300439,6300515] 35 (ggg)
+[09:50:51] 82 tRNA-Ala c[6568075,6568166] 35 (cgc)
+[09:50:51] 1 tRNA-Met c[35841,35915] 35 (cat)
+[09:50:51] 1 tRNA-Tyr [123625,123721] 37 (gta)
+[09:50:51] 2 tRNA-Gly [377085,377157] 32 (tcc)
+[09:50:51] 3 tRNA-Arg c[431906,432000] 39 (acg)
+[09:50:51] 4 tRNA-Arg c[498705,498800] 35 (gcg)
+[09:50:51] 5 tRNA-Gly [512678,512749] 32 (tcc)
+[09:50:51] 6 tRNA-Gly [519848,519919] 32 (tcc)
+[09:50:51] 7 tRNA-Gly [551851,551922] 32 (tcc)
+[09:50:51] 8 tRNA-Ser c[612130,612213] 31 (gga)
+[09:50:51] Found 90 tRNAs
+[09:50:51] Predicting Ribosomal RNAs
+[09:50:51] Running Barrnap with 4 threads
+[09:50:55] 1 gnl|Prokka|SCLAV_SC2_1 806957 5S ribosomal RNA
+[09:50:55] 2 gnl|Prokka|SCLAV_SC2_1 807147 23S ribosomal RNA
+[09:50:55] 3 gnl|Prokka|SCLAV_SC2_1 810557 16S ribosomal RNA
+[09:50:55] 4 gnl|Prokka|SCLAV_SC2_1 1241876 5S ribosomal RNA
+[09:50:55] 5 gnl|Prokka|SCLAV_SC2_1 1242095 23S ribosomal RNA
+[09:50:55] 6 gnl|Prokka|SCLAV_SC2_1 1245505 16S ribosomal RNA
+[09:50:55] 7 gnl|Prokka|SCLAV_SC2_1 2501190 5S ribosomal RNA
+[09:50:55] 8 gnl|Prokka|SCLAV_SC2_1 2501380 23S ribosomal RNA
+[09:50:55] 9 gnl|Prokka|SCLAV_SC2_1 2504790 16S ribosomal RNA
+[09:50:55] 10 gnl|Prokka|SCLAV_SC2_1 2782487 5S ribosomal RNA
+[09:50:55] 11 gnl|Prokka|SCLAV_SC2_1 2782677 23S ribosomal RNA
+[09:50:55] 12 gnl|Prokka|SCLAV_SC2_1 2786085 16S ribosomal RNA
+[09:50:55] 13 gnl|Prokka|SCLAV_SC2_1 3699132 16S ribosomal RNA
+[09:50:55] 14 gnl|Prokka|SCLAV_SC2_1 3700944 23S ribosomal RNA
+[09:50:55] 15 gnl|Prokka|SCLAV_SC2_1 3704144 5S ribosomal RNA
+[09:50:55] 16 gnl|Prokka|SCLAV_SC2_1 5385925 16S ribosomal RNA
+[09:50:55] 17 gnl|Prokka|SCLAV_SC2_1 5387739 23S ribosomal RNA
+[09:50:55] 18 gnl|Prokka|SCLAV_SC2_1 5390939 5S ribosomal RNA
+[09:50:55] Found 18 rRNAs
+[09:50:55] Skipping ncRNA search, enable with --rfam if desired.
+[09:50:55] Total of 107 tRNA + rRNA features
+[09:50:55] Searching for CRISPR repeats
+[09:50:57] Found 0 CRISPRs
+[09:50:57] Predicting coding sequences
+[09:50:57] Contigs total 8194333 bp, so using single mode
+[09:50:57] Running: prodigal -i \/home\/ubuntu\/JTM_data\/BIV_lineage\/final_analysis\/SC2_final\/prokka_SC2\/\/PROKKA_02082022\.fna -c -m -g 11 -p single -f sco -q
+[09:51:23] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Prokka|SCLAV_SC2_1:118878..121094 on + strand
+[09:51:23] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Prokka|SCLAV_SC2_1:166105..167478 on + strand
+[09:51:23] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Prokka|SCLAV_SC2_1:174285..175637 on - strand
+[09:51:23] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Prokka|SCLAV_SC2_1:252974..254215 on - strand
+[09:51:23] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Prokka|SCLAV_SC2_1:458254..460752 on + strand
+[09:51:24] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Prokka|SCLAV_SC2_1:717976..718758 on + strand
+[09:51:24] Excluding CDS which overlaps existing RNA (rRNA) at gnl|Prokka|SCLAV_SC2_1:809166..809288 on - strand
+[09:51:25] Excluding CDS which overlaps existing RNA (rRNA) at gnl|Prokka|SCLAV_SC2_1:1244114..1244236 on - strand
+[09:51:27] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Prokka|SCLAV_SC2_1:2333834..2334520 on + strand
+[09:51:28] Excluding CDS which overlaps existing RNA (rRNA) at gnl|Prokka|SCLAV_SC2_1:2503399..2503521 on - strand
+[09:51:28] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Prokka|SCLAV_SC2_1:2616766..2617872 on - strand
+[09:51:28] Excluding CDS which overlaps existing RNA (rRNA) at gnl|Prokka|SCLAV_SC2_1:2784696..2784818 on - strand
+[09:51:29] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Prokka|SCLAV_SC2_1:3226252..3227025 on - strand
+[09:51:30] Excluding CDS which overlaps existing RNA (rRNA) at gnl|Prokka|SCLAV_SC2_1:3701923..3702045 on + strand
+[09:51:30] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Prokka|SCLAV_SC2_1:3780023..3780766 on + strand
+[09:51:30] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Prokka|SCLAV_SC2_1:3943780..3945411 on + strand
+[09:51:31] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Prokka|SCLAV_SC2_1:4262955..4264397 on + strand
+[09:51:33] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Prokka|SCLAV_SC2_1:5170157..5185168 on + strand
+[09:51:33] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Prokka|SCLAV_SC2_1:5296346..5297500 on - strand
+[09:51:33] Excluding CDS which overlaps existing RNA (rRNA) at gnl|Prokka|SCLAV_SC2_1:5388718..5388840 on + strand
+[09:51:35] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Prokka|SCLAV_SC2_1:6567406..6568590 on + strand
+[09:51:35] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Prokka|SCLAV_SC2_5:123560..123934 on + strand
+[09:51:36] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Prokka|SCLAV_SC2_5:431676..434831 on - strand
+[09:51:36] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Prokka|SCLAV_SC2_5:498734..499150 on + strand
+[09:51:36] Excluding CDS which overlaps existing RNA (tRNA) at gnl|Prokka|SCLAV_SC2_5:611752..613017 on + strand
+[09:51:36] Found 6731 CDS
+[09:51:36] Connecting features back to sequences
+[09:51:36] Not using genus-specific database. Try --usegenus to enable it.
+[09:51:36] Preparing user-supplied primary BLAST annotation source: /home/ubuntu/JTM_data/BIV_lineage/prokka_annotations/CM000913-14.gb
+[09:51:36] Guessed source was in genbank format.
+[09:51:36] Converting genbank '/home/ubuntu/JTM_data/BIV_lineage/prokka_annotations/CM000913-14.gb' into Prokka FASTA '/home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2//proteins.faa'
+[09:51:36] Running: prokka-genbank_to_fasta_db --format genbank \/home\/ubuntu\/JTM_data\/BIV_lineage\/prokka_annotations\/CM000913\-14\.gb > \/home\/ubuntu\/JTM_data\/BIV_lineage\/final_analysis\/SC2_final\/prokka_SC2\/\/proteins\.faa 2> /dev/null
+[09:52:09] Running: makeblastdb -dbtype prot -in \/home\/ubuntu\/JTM_data\/BIV_lineage\/final_analysis\/SC2_final\/prokka_SC2\/\/proteins\.faa -out \/home\/ubuntu\/JTM_data\/BIV_lineage\/final_analysis\/SC2_final\/prokka_SC2\/\/proteins -logfile /dev/null
+[09:52:10] Using /inference source as 'CM000913-14.gb'
+[09:52:10] Annotating CDS, please be patient.
+[09:52:10] Will use 4 CPUs for similarity searching.
+[09:52:35] There are still 6731 unannotated CDS left (started with 6731)
+[09:52:35] Will use blast to search against /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2//proteins with 4 CPUs
+[09:52:35] Running: cat \/home\/ubuntu\/JTM_data\/BIV_lineage\/final_analysis\/SC2_final\/prokka_SC2\/\/proteins\.faa | parallel --gnu --plain -j 4 --block 294701 --recstart '>' --pipe blastp -query - -db /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2//proteins -evalue 1e-06 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \/home\/ubuntu\/JTM_data\/BIV_lineage\/final_analysis\/SC2_final\/prokka_SC2\/\/proteins\.blast 2> /dev/null
+[09:55:36] Modify product: DUF1918 domain-containing protein => hypothetical protein
+[09:55:36] Modify product: Predicted amino acid aldolase or racemase => putative amino acid aldolase or racemase
+[09:55:36] Modify product: predicted transcriptional regulator => putative transcriptional regulator
+[09:55:36] Modify product: DUF797 domain-containing protein => hypothetical protein
+[09:55:36] Modify product: DUF75 multi-domain protein => hypothetical protein
+[09:55:36] Modify product: DUF1343 domain-containing protein => hypothetical protein
+[09:55:36] Modify product: DUF402 domain-containing protein => hypothetical protein
+[09:55:36] Modify product: DUF1684 domain-containing protein => hypothetical protein
+[09:55:36] Modify product: DUF552 domain-containing protein => hypothetical protein
+[09:55:36] Modify product: Predicted nucleotidyltransferase => putative nucleotidyltransferase
+[09:55:36] Modify product: Probable inorganic polyphosphate/ATP-NAD kinase 2 => putative inorganic polyphosphate/ATP-NAD kinase 2
+[09:55:36] Modify product: DUF1015 domain-containing protein => hypothetical protein
+[09:55:36] Modify product: DUF320 domain-containing protein => hypothetical protein
+[09:55:36] Modify product: Predicted Zn-dependent protease-like protein => putative Zn-dependent protease-like protein
+[09:55:36] Modify product: DUF1349 domain-containing protein => hypothetical protein
+[09:55:36] Modify product: Probable 5-dehydro-4-deoxyglucarate dehydratase 1 => putative 5-dehydro-4-deoxyglucarate dehydratase 1
+[09:55:36] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:36] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:37] Modify product: DUF59 domain-containing protein => hypothetical protein
+[09:55:37] Modify product: Predicted TIM-barrel fold metal-dependent hydrolase => putative TIM-barrel fold metal-dependent hydrolase
+[09:55:37] Modify product: UPF0052 domain-containing protein => hypothetical protein
+[09:55:37] Modify product: Predicted P-loop-containing kinase => putative P-loop-containing kinase
+[09:55:37] Modify product: DUF541 domain-containing protein => hypothetical protein
+[09:55:37] Modify product: DUF88 domain-containing protein => hypothetical protein
+[09:55:37] Modify product: Conserved hypothetical protein => hypothetical protein
+[09:55:37] Modify product: Predicted integral membrane protein => putative integral membrane protein
+[09:55:37] Modify product: DUF552 domain-containing protein => hypothetical protein
+[09:55:37] Modify product: DUF901 domain-containing protein => hypothetical protein
+[09:55:37] Modify product: Probable cytochrome c oxidase subunit 3 => putative cytochrome c oxidase subunit 3
+[09:55:37] Modify product: Probable cytochrome c oxidase subunit 1-alpha => putative cytochrome c oxidase subunit 1-alpha
+[09:55:37] Modify product: Probable cytosol aminopeptidase => putative cytosol aminopeptidase
+[09:55:37] Modify product: Possible kanamycin biosynthetic protein => putative kanamycin biosynthetic protein
+[09:55:37] Modify product: Putative permease of the major facilitator superfamily => Putative permease of the major facilitator superfamily protein
+[09:55:37] Modify product: Predicted hydrolase or acyltransferase of alpha/beta superfamily => putative hydrolase or acyltransferase of alpha/beta superfamily protein
+[09:55:37] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:37] Modify product: Possible kanamycin regulatory protein => putative kanamycin regulatory protein
+[09:55:37] Modify product: DUF328 domain-containing protein => hypothetical protein
+[09:55:38] Modify product: Putative permease of the major facilitator superfamily => Putative permease of the major facilitator superfamily protein
+[09:55:38] Modify product: DUF2277 domain-containing protein => hypothetical protein
+[09:55:38] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:38] Modify product: Predicted permease => putative permease
+[09:55:38] Modify product: DUF81 domain-containing protein => hypothetical protein
+[09:55:38] Modify product: DUF916 domain-containing protein => hypothetical protein
+[09:55:38] Modify product: DUF143 domain-containing protein => hypothetical protein
+[09:55:38] Modify product: Conserved hypothetical protein => hypothetical protein
+[09:55:38] Modify product: DUF1203 domain-containing protein => hypothetical protein
+[09:55:38] Modify product: DUF820 domain-containing protein => hypothetical protein
+[09:55:38] Modify product: DUF993 domain-containing protein => hypothetical protein
+[09:55:39] Modify product: predicted membrane protein => putative membrane protein
+[09:55:39] Modify product: DUF1707 domain-containing protein => hypothetical protein
+[09:55:39] Modify product: Predicted metal-dependent protease of the PAD1/JAB1 superfamily => putative metal-dependent protease of the PAD1/JAB1 superfamily protein
+[09:55:39] Modify product: DUF2017 domain-containing protein => hypothetical protein
+[09:55:39] Modify product: Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily => Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily protein
+[09:55:39] Modify product: Putative permease of the major facilitator superfamily => Putative permease of the major facilitator superfamily protein
+[09:55:39] Modify product: DUF1470 domain-containing protein => hypothetical protein
+[09:55:39] Modify product: DUF1006 domain-containing protein => hypothetical protein
+[09:55:39] Modify product: Predicted hydrolase or acyltransferase of alpha/beta superfamily => putative hydrolase or acyltransferase of alpha/beta superfamily protein
+[09:55:39] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:39] Modify product: DUF1470 domain-containing protein => hypothetical protein
+[09:55:39] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:39] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:39] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:39] Modify product: DUF501 domain-containing protein => hypothetical protein
+[09:55:39] Modify product: Probable FAD-dependent monooxygenase => putative FAD-dependent monooxygenase
+[09:55:39] Modify product: Putative permease of the major facilitator superfamily => Putative permease of the major facilitator superfamily protein
+[09:55:40] Modify product: DUF185 domain-containing protein => hypothetical protein
+[09:55:40] Modify product: DUF2342 domain-containing protein => hypothetical protein
+[09:55:40] Modify product: DUF1212 domain-containing protein => hypothetical protein
+[09:55:40] Modify product: DUF664 domain-containing protein => hypothetical protein
+[09:55:40] Modify product: DUF574 domain-containing protein => hypothetical protein
+[09:55:40] Modify product: Possible ATP-binding protein => putative ATP-binding protein
+[09:55:40] Modify product: Predicted membrane protein => putative membrane protein
+[09:55:40] Modify product: DUF574 domain-containing protein => hypothetical protein
+[09:55:40] Modify product: Predicted membrane protein => putative membrane protein
+[09:55:40] Modify product: Lipolytic protein G-D-S-L family => Lipolytic protein G-D-S-L family protein
+[09:55:40] Modify product: Conserved hypothetical protein => hypothetical protein
+[09:55:40] Modify product: Predicted nucleoside-diphosphate sugar epimerase => putative nucleoside-diphosphate sugar epimerase
+[09:55:40] Modify product: DUF1470 domain-containing protein => hypothetical protein
+[09:55:40] Modify product: DUF574 domain-containing protein => hypothetical protein
+[09:55:40] Modify product: DUF664 domain-containing protein => hypothetical protein
+[09:55:40] Modify product: DUF35 domain-containing protein => hypothetical protein
+[09:55:40] Modify product: Conserved hypothetical protein => hypothetical protein
+[09:55:41] Modify product: Putative permease of the major facilitator superfamily => Putative permease of the major facilitator superfamily protein
+[09:55:41] Modify product: DUF1089 domain-containing protein => hypothetical protein
+[09:55:41] Modify product: DUF1348 domain-containing protein => hypothetical protein
+[09:55:41] Modify product: DUF385 domain-containing protein => hypothetical protein
+[09:55:41] Modify product: Conserved hypothetical protein => hypothetical protein
+[09:55:41] Modify product: Conserved hypothetical protein => hypothetical protein
+[09:55:41] Modify product: Probable hydrogenase nickel incorporation protein hypA => putative hydrogenase nickel incorporation protein hypA
+[09:55:41] Modify product: DUF2399 domain-containing protein => hypothetical protein
+[09:55:41] Modify product: DUF2398 domain-containing protein => hypothetical protein
+[09:55:41] Modify product: DUF2397 domain-containing protein => hypothetical protein
+[09:55:41] Modify product: UPF0089 domain-containing protein => hypothetical protein
+[09:55:41] Modify product: DUF1503 domain-containing protein => hypothetical protein
+[09:55:41] Modify product: Conserved hypothetical protein => hypothetical protein
+[09:55:41] Modify product: DUF742 domain-containing protein => hypothetical protein
+[09:55:42] Modify product: Predicted transcriptional regulator => putative transcriptional regulator
+[09:55:42] Modify product: Conserved hypothetical protein => hypothetical protein
+[09:55:42] Modify product: Conserved hypothetical protein => hypothetical protein
+[09:55:42] Modify product: DUF35 domain-containing protein => hypothetical protein
+[09:55:42] Modify product: DUF742 domain-containing protein => hypothetical protein
+[09:55:42] Modify product: Putative permease of the major facilitator superfamily => Putative permease of the major facilitator superfamily protein
+[09:55:42] Modify product: DUF2581 domain-containing protein => hypothetical protein
+[09:55:42] Modify product: DUF2236 domain-containing protein => hypothetical protein
+[09:55:42] Modify product: DUF349 domain-containing protein => hypothetical protein
+[09:55:42] Modify product: DUF28 domain-containing protein => hypothetical protein
+[09:55:42] Modify product: DUF1470 domain-containing protein => hypothetical protein
+[09:55:42] Modify product: DUF149 domain-containing protein => hypothetical protein
+[09:55:42] Modify product: DUF11 multi-domain protein => hypothetical protein
+[09:55:42] Modify product: DUF11 domain-containing protein => hypothetical protein
+[09:55:42] Modify product: DUF11 multi-domain protein => hypothetical protein
+[09:55:42] Modify product: Predicted membrane protein => putative membrane protein
+[09:55:42] Modify product: DUF89 domain-containing protein => hypothetical protein
+[09:55:42] Modify product: DUF218 domain-containing protein => hypothetical protein
+[09:55:42] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:42] Modify product: DUF1015 domain-containing protein => hypothetical protein
+[09:55:42] Modify product: Predicted hydrolase or acyltransferase of alpha/beta superfamily => putative hydrolase or acyltransferase of alpha/beta superfamily protein
+[09:55:42] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:42] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:42] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:42] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:42] Modify product: Predicted carboxylase ATP-grasp family => putative carboxylase ATP-grasp family protein
+[09:55:42] Modify product: Predicted nucleic-acid-binding protein containing a Zn-ribbon => putative nucleic-acid-binding protein containing a Zn-ribbon
+[09:55:43] Modify product: DUF1775 domain-containing protein => hypothetical protein
+[09:55:43] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:43] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:43] Modify product: DUF37 domain-containing protein => hypothetical protein
+[09:55:43] Modify product: predicted RNA-binding protein containing Zn ribbon => putative RNA-binding protein containing Zn ribbon
+[09:55:43] Modify product: Conserved hypothetical protein => hypothetical protein
+[09:55:43] Modify product: DUF2587 domain-containing protein => hypothetical protein
+[09:55:43] Modify product: DUF1526 domain-containing protein => hypothetical protein
+[09:55:43] Modify product: Predicted transcriptional regulator => putative transcriptional regulator
+[09:55:43] Modify product: Probable radical activating enzyme => putative radical activating enzyme
+[09:55:43] Modify product: DUF1025 domain-containing protein => hypothetical protein
+[09:55:43] Modify product: DUF574 domain-containing protein => hypothetical protein
+[09:55:43] Modify product: Conserved hypothetical protein => hypothetical protein
+[09:55:43] Modify product: DUF1416 domain-containing protein => hypothetical protein
+[09:55:43] Modify product: DUF1794 domain-containing protein => hypothetical protein
+[09:55:43] Modify product: DUF2516 domain-containing protein => hypothetical protein
+[09:55:43] Modify product: DUF2596 domain-containing protein => hypothetical protein
+[09:55:43] Modify product: Putative permease of the major facilitator superfamily => Putative permease of the major facilitator superfamily protein
+[09:55:43] Modify product: Possible antigen protein => putative antigen protein
+[09:55:44] Modify product: Putative permease of the major facilitator superfamily => Putative permease of the major facilitator superfamily protein
+[09:55:44] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:44] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:44] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:44] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:44] Modify product: DUF742 domain-containing protein => hypothetical protein
+[09:55:44] Modify product: DUF35 domain-containing protein => hypothetical protein
+[09:55:44] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:44] Modify product: DUF1503 multi-domain protein => hypothetical protein
+[09:55:44] Modify product: DUF1446 multi-domain protein => hypothetical protein
+[09:55:44] Modify product: DUF35 domain-containing protein => hypothetical protein
+[09:55:44] Modify product: DUF385 domain-containing protein => hypothetical protein
+[09:55:44] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:44] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:44] Modify product: Predicted permease => putative permease
+[09:55:44] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:44] Modify product: Possible transcriptional regulator, ArsR family => putative transcriptional regulator, ArsR family
+[09:55:44] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:44] Modify product: DUF742 domain-containing protein => hypothetical protein
+[09:55:44] Modify product: DUF742 domain-containing protein => hypothetical protein
+[09:55:44] Modify product: DUF121 domain-containing protein => hypothetical protein
+[09:55:44] Modify product: DUF2469 domain-containing protein => hypothetical protein
+[09:55:44] Modify product: DUF574 domain-containing protein => hypothetical protein
+[09:55:44] Modify product: DUF1768 domain-containing protein => hypothetical protein
+[09:55:44] Modify product: Conserved hypothetical protein => hypothetical protein
+[09:55:44] Modify product: DUF503 domain-containing protein => hypothetical protein
+[09:55:45] Modify product: DUF690 domain-containing protein => hypothetical protein
+[09:55:45] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:45] Modify product: DUF364 domain-containing protein => hypothetical protein
+[09:55:45] Modify product: DUF552 domain-containing protein => hypothetical protein
+[09:55:45] Modify product: DUF692 multi-domain protein => hypothetical protein
+[09:55:45] Modify product: DUF124 domain-containing protein => hypothetical protein
+[09:55:45] Modify product: DUF1697 domain-containing protein => hypothetical protein
+[09:55:45] Modify product: Possible GTPase EngC => putative GTPase EngC
+[09:55:45] Modify product: Probable short-chain dehydrogenase => putative short-chain dehydrogenase
+[09:55:45] Modify product: DUF1906 domain-containing protein => hypothetical protein
+[09:55:46] Modify product: Putative methyltransferase-UbiE family => Putative methyltransferase-UbiE family protein
+[09:55:46] Modify product: DUF742 domain-containing protein => hypothetical protein
+[09:55:46] Modify product: Probable acyl-CoA dehydrogenase => putative acyl-CoA dehydrogenase
+[09:55:46] Modify product: Conserved hypothetical protein => hypothetical protein
+[09:55:46] Modify product: Putative permease of the major facilitator superfamily => Putative permease of the major facilitator superfamily protein
+[09:55:46] Modify product: Conserved hypothetical protein => hypothetical protein
+[09:55:46] Modify product: DUF309 domain-containing protein => hypothetical protein
+[09:55:46] Modify product: Predicted flavoprotein involved in K+ transport => putative flavoprotein involved in K+ transport
+[09:55:46] Modify product: Possible integral membrane protein => putative integral membrane protein
+[09:55:47] Modify product: Possible diacylglycerol kinase, catalytic region => putative diacylglycerol kinase, catalytic region
+[09:55:47] Modify product: Predicted transcriptional regulator => putative transcriptional regulator
+[09:55:47] Modify product: Predicted TIM-barrel fold metal-dependent hydrolase => putative TIM-barrel fold metal-dependent hydrolase
+[09:55:47] Modify product: DUF35 domain-containing protein => hypothetical protein
+[09:55:47] Modify product: DUF779 domain-containing protein => hypothetical protein
+[09:55:47] Modify product: DUF385 domain-containing protein => hypothetical protein
+[09:55:47] Modify product: DUF574 domain-containing protein => hypothetical protein
+[09:55:47] Modify product: Probable aldehyde dehydrogenase => putative aldehyde dehydrogenase
+[09:55:47] Modify product: Putative permease of the major facilitator superfamily => Putative permease of the major facilitator superfamily protein
+[09:55:47] Modify product: Predicted RhtB family transporter => putative RhtB family transporter
+[09:55:47] Modify product: predicted RNA-binding protein containing Zn ribbon => putative RNA-binding protein containing Zn ribbon
+[09:55:48] Modify product: Probable acyl-CoA dehydrogenase => putative acyl-CoA dehydrogenase
+[09:55:48] Modify product: DUF742 domain-containing protein => hypothetical protein
+[09:55:48] Modify product: DUF574 domain-containing protein => hypothetical protein
+[09:55:48] Modify product: DUF1876 domain-containing protein => hypothetical protein
+[09:55:48] Modify product: UPF0027 domain-containing protein => hypothetical protein
+[09:55:48] Modify product: DUF82 domain-containing protein => hypothetical protein
+[09:55:48] Modify product: Predicted solute-binding protein => putative solute-binding protein
+[09:55:48] Modify product: DUF1470 domain-containing protein => hypothetical protein
+[09:55:48] Modify product: Predicted membrane protein => putative membrane protein
+[09:55:48] Modify product: Putative permease of the major facilitator superfamily => Putative permease of the major facilitator superfamily protein
+[09:55:48] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:48] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:48] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:48] Modify product: DUF1876 domain-containing protein => hypothetical protein
+[09:55:48] Modify product: DUF820 domain-containing protein => hypothetical protein
+[09:55:48] Modify product: Putative permease of the major facilitator superfamily => Putative permease of the major facilitator superfamily protein
+[09:55:49] Modify product: DUF255 domain-containing protein => hypothetical protein
+[09:55:49] Modify product: DUF320 domain-containing protein => hypothetical protein
+[09:55:49] Modify product: DUF946 domain-containing protein => hypothetical protein
+[09:55:49] Modify product: DUF402 domain-containing protein => hypothetical protein
+[09:55:49] Modify product: DUF1707 multi-domain protein => hypothetical protein
+[09:55:49] Modify product: DUF820 domain-containing protein => hypothetical protein
+[09:55:49] Modify product: DUF88 domain-containing protein => hypothetical protein
+[09:55:49] Modify product: DUF2342 domain-containing protein => hypothetical protein
+[09:55:49] Modify product: Conserved hypothetical protein => hypothetical protein
+[09:55:49] Modify product: DUF2191 domain-containing protein => hypothetical protein
+[09:55:49] Modify product: DUF1470 domain-containing protein => hypothetical protein
+[09:55:49] Modify product: DUF742 domain-containing protein => hypothetical protein
+[09:55:49] Modify product: DUF664 domain-containing protein => hypothetical protein
+[09:55:49] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:49] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:49] Modify product: DUF482 domain-containing protein => hypothetical protein
+[09:55:49] Modify product: integral membrane protein DUF6 => hypothetical protein
+[09:55:50] Modify product: DUF605 multi-domain protein => hypothetical protein
+[09:55:50] Modify product: DUF91 domain-containing protein => hypothetical protein
+[09:55:50] Modify product: DUF124 domain-containing protein => hypothetical protein
+[09:55:50] Modify product: DUF124 domain-containing protein => hypothetical protein
+[09:55:50] Modify product: DUF124 domain-containing protein => hypothetical protein
+[09:55:50] Modify product: DUF574 domain-containing protein => hypothetical protein
+[09:55:50] Modify product: Class II aldolase/adducin, N-terminal domain-containing protein => hypothetical protein
+[09:55:50] Modify product: Predicted dithiol-disulfide isomerase involved in polyketide biosynthesis => putative dithiol-disulfide isomerase involved in polyketide biosynthesis
+[09:55:50] Modify product: Putative permease of the major facilitator superfamily => Putative permease of the major facilitator superfamily protein
+[09:55:50] Modify product: Putative permease of the major facilitator superfamily => Putative permease of the major facilitator superfamily protein
+[09:55:50] Modify product: DUF1906 domain-containing protein => hypothetical protein
+[09:55:50] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:50] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:50] Modify product: DUF664 domain-containing protein => hypothetical protein
+[09:55:50] Modify product: Possible replication initiation protein => putative replication initiation protein
+[09:55:50] Modify product: Predicted acetyltransferase => putative acetyltransferase
+[09:55:50] Modify product: DUF390 domain-containing protein => hypothetical protein
+[09:55:50] Modify product: Predicted nucleoside-diphosphate sugar epimerase => putative nucleoside-diphosphate sugar epimerase
+[09:55:51] Modify product: DUF1326 domain-containing protein => hypothetical protein
+[09:55:51] Modify product: Probable glutamate N-acetyltransferase 1 => putative glutamate N-acetyltransferase 1
+[09:55:51] Modify product: Probable response regulator, two-component system => putative response regulator, two-component system
+[09:55:51] Modify product: DUF1906 multi-domain protein => hypothetical protein
+[09:55:51] Modify product: Putative major facilitator superfamily => Putative major facilitator superfamily protein
+[09:55:51] Modify product: DUF1801 domain-containing protein => hypothetical protein
+[09:55:51] Modify product: Probable FAD-dependent monooxygenase => putative FAD-dependent monooxygenase
+[09:55:51] Modify product: coenzyme F420-dependent N5 N10-methylene tetrahydromethanopterin reductase and related flavin-dependent oxidoreductase => coenzyme F420-dependent N5 N10-methylene tetrahydromethanopterin reductase-dependent oxidoreductase
+[09:55:51] Modify product: Predicted acyl carrier protein => putative acyl carrier protein
+[09:55:51] Modify product: DUF664 domain-containing protein => hypothetical protein
+[09:55:51] Modify product: Predicted acyltransferase => putative acyltransferase
+[09:55:51] Modify product: Putative transcriptional regulator AraC family => Putative transcriptional regulator AraC family protein
+[09:55:51] Modify product: Probable integral membrane protein => putative integral membrane protein
+[09:55:51] Modify product: UPF0089 domain-containing protein => hypothetical protein
+[09:55:52] Modify product: Predicted ATPase => putative ATPase
+[09:55:52] Modify product: DUF397 domain-containing protein => hypothetical protein
+[09:55:52] Cleaned 265 /product names
+[09:55:52] Deleting unwanted file: /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2//proteins.faa
+[09:55:52] Deleting unwanted file: /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2//proteins.blast
+[09:55:53] There are still 534 unannotated CDS left (started with 6731)
+[09:55:53] Will use blast to search against /home/ubuntu/miniconda3/bin/../db/kingdom/Bacteria/sprot with 4 CPUs
+[09:55:53] Running: cat \/home\/ubuntu\/JTM_data\/BIV_lineage\/final_analysis\/SC2_final\/prokka_SC2\/\/sprot\.faa | parallel --gnu --plain -j 4 --block 13443 --recstart '>' --pipe blastp -query - -db /home/ubuntu/miniconda3/bin/../db/kingdom/Bacteria/sprot -evalue 1e-06 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \/home\/ubuntu\/JTM_data\/BIV_lineage\/final_analysis\/SC2_final\/prokka_SC2\/\/sprot\.blast 2> /dev/null
+[09:56:04] Modify product: Putative O-phosphotransferase Rv2636 => Putative O-phosphotransferase
+[09:56:04] Cleaned 1 /product names
+[09:56:04] Deleting unwanted file: /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2//sprot.faa
+[09:56:04] Deleting unwanted file: /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2//sprot.blast
+[09:56:05] There are still 523 unannotated CDS left (started with 6731)
+[09:56:05] Will use hmmer3 to search against /home/ubuntu/miniconda3/bin/../db/hmm/HAMAP.hmm with 4 CPUs
+[09:56:05] Running: cat \/home\/ubuntu\/JTM_data\/BIV_lineage\/final_analysis\/SC2_final\/prokka_SC2\/\/HAMAP\.hmm\.faa | parallel --gnu --plain -j 4 --block 12993 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-06 --cpu 1 /home/ubuntu/miniconda3/bin/../db/hmm/HAMAP.hmm /dev/stdin > \/home\/ubuntu\/JTM_data\/BIV_lineage\/final_analysis\/SC2_final\/prokka_SC2\/\/HAMAP\.hmm\.hmmer3 2> /dev/null
+[09:56:33] Deleting unwanted file: /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2//HAMAP.hmm.faa
+[09:56:33] Deleting unwanted file: /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2//HAMAP.hmm.hmmer3
+[09:56:33] Deleting unwanted file: /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2//proteins.psq
+[09:56:33] Deleting unwanted file: /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2//proteins.phr
+[09:56:33] Deleting unwanted file: /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2//proteins.pin
+[09:56:33] Labelling remaining 519 proteins as 'hypothetical protein'
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 8923
+[09:56:33] Possible /pseudo 'modular polyketide synthase' at gnl|Prokka|SCLAV_SC2_1 position 20214
+[09:56:33] Possible /pseudo 'modular polyketide synthase' at gnl|Prokka|SCLAV_SC2_1 position 31051
+[09:56:33] Possible /pseudo 'modular polyketide synthase' at gnl|Prokka|SCLAV_SC2_1 position 43432
+[09:56:33] Possible /pseudo 'modular polyketide synthase' at gnl|Prokka|SCLAV_SC2_1 position 59849
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 93125
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 94992
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 95567
+[09:56:33] Possible /pseudo 'Rhs element Vgr protein' at gnl|Prokka|SCLAV_SC2_1 position 103115
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 106160
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 112647
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 114785
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 115930
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 116469
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 121203
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 173754
+[09:56:33] Possible /pseudo 'Regulatory protein' at gnl|Prokka|SCLAV_SC2_1 position 195367
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 202554
+[09:56:33] Possible /pseudo 'Transcriptional regulator, LuxR family' at gnl|Prokka|SCLAV_SC2_1 position 260952
+[09:56:33] Possible /pseudo 'Radical SAM domain protein' at gnl|Prokka|SCLAV_SC2_1 position 315755
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 322857
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 358377
+[09:56:33] Possible /pseudo 'Electron transfer flavoprotein' at gnl|Prokka|SCLAV_SC2_1 position 405333
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 445609
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 453840
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 454532
+[09:56:33] Possible /pseudo 'Hydrogenase accessory protein' at gnl|Prokka|SCLAV_SC2_1 position 462219
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 516608
+[09:56:33] Possible /pseudo 'ABC-type multidrug transport system, ATPase and permease component' at gnl|Prokka|SCLAV_SC2_1 position 540887
+[09:56:33] Possible /pseudo 'Cobalamin/Fe3+-siderophores transport system, permease component' at gnl|Prokka|SCLAV_SC2_1 position 544421
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 554142
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 557402
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 558571
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 581936
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 594313
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 680599
+[09:56:33] Possible /pseudo 'Exonuclease' at gnl|Prokka|SCLAV_SC2_1 position 742294
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 762265
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 773525
+[09:56:33] Possible /pseudo 'putative sensor-like histidine kinase' at gnl|Prokka|SCLAV_SC2_1 position 827414
+[09:56:33] Possible /pseudo 'integral membrane protein' at gnl|Prokka|SCLAV_SC2_1 position 996343
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 1038670
+[09:56:33] Possible /pseudo 'Peptidyl-prolyl cis-trans isomerase' at gnl|Prokka|SCLAV_SC2_1 position 1072074
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 1124197
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 1184194
+[09:56:33] Possible /pseudo 'Putative FMNH2-utilizing oxygenase' at gnl|Prokka|SCLAV_SC2_1 position 1188535
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 1204976
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 1235678
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 1265676
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 1290431
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 1352357
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 1352679
+[09:56:33] Possible /pseudo 'Iron-regulated ABC-type transporter' at gnl|Prokka|SCLAV_SC2_1 position 1361988
+[09:56:33] Possible /pseudo 'Membrane-flanked domain-containing protein' at gnl|Prokka|SCLAV_SC2_1 position 1380934
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 1397075
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 1398004
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 1438936
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 1478676
+[09:56:33] Possible /pseudo 'Putative ADP-ribosylglycohydrolase-family protein' at gnl|Prokka|SCLAV_SC2_1 position 1499042
+[09:56:33] Possible /pseudo 'Putative membrane protein' at gnl|Prokka|SCLAV_SC2_1 position 1575527
+[09:56:33] Possible /pseudo 'Putative membrane protein' at gnl|Prokka|SCLAV_SC2_1 position 1578633
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 1670294
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 1672585
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 1673294
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 1703603
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 1704774
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 1706397
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 1707290
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 1750294
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 1750511
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 1753407
+[09:56:33] Possible /pseudo 'putative secreted protein' at gnl|Prokka|SCLAV_SC2_1 position 1789403
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 1877980
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 1882332
+[09:56:33] Possible /pseudo 'Tellurium resistance protein' at gnl|Prokka|SCLAV_SC2_1 position 1904203
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 1940322
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 1951869
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 1952615
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2001571
+[09:56:33] Possible /pseudo 'Metal transport ABC transporter' at gnl|Prokka|SCLAV_SC2_1 position 2005853
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2020294
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2020715
+[09:56:33] Possible /pseudo 'Membrane protein' at gnl|Prokka|SCLAV_SC2_1 position 2065520
+[09:56:33] Possible /pseudo 'ATP-dependent Clp protease proteolytic subunit' at gnl|Prokka|SCLAV_SC2_1 position 2108151
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2113718
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2224428
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2273259
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2276066
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2276587
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2276917
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2277405
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2313522
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2325886
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2334642
+[09:56:33] Possible /pseudo 'Putative polar amino acid ABC transporter substrate-binding protein' at gnl|Prokka|SCLAV_SC2_1 position 2345489
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2366063
+[09:56:33] Possible /pseudo 'Putative sugar ABC transporter permease protein' at gnl|Prokka|SCLAV_SC2_1 position 2436711
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2482623
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2516179
+[09:56:33] Possible /pseudo 'Transcriptional regulator' at gnl|Prokka|SCLAV_SC2_1 position 2534456
+[09:56:33] Possible /pseudo 'Transcriptional regulator' at gnl|Prokka|SCLAV_SC2_1 position 2536379
+[09:56:33] Possible /pseudo 'Putative regulatory protein' at gnl|Prokka|SCLAV_SC2_1 position 2546131
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2547958
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2551143
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2551550
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2554493
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2555184
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2555393
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2570652
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2593235
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2593471
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2601903
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2639642
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2647615
+[09:56:33] Possible /pseudo 'Secreted protein' at gnl|Prokka|SCLAV_SC2_1 position 2668704
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2674399
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2690438
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2703961
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2707654
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2707782
+[09:56:33] Possible /pseudo 'Putative regulatory protein' at gnl|Prokka|SCLAV_SC2_1 position 2709278
+[09:56:33] Possible /pseudo 'ABC transporter permease' at gnl|Prokka|SCLAV_SC2_1 position 2842823
+[09:56:33] Possible /pseudo 'Beta-mannanase' at gnl|Prokka|SCLAV_SC2_1 position 2881791
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2885202
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2894097
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2894678
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2908300
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2911756
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2911977
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2914882
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2916511
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2917063
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2917624
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2919842
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2920303
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2921112
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2927387
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2927876
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2928664
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2929210
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2930063
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2930701
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2947121
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2954458
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 2982171
+[09:56:33] Possible /pseudo 'Integral membrane protein' at gnl|Prokka|SCLAV_SC2_1 position 2983255
+[09:56:33] Possible /pseudo 'Ion-transporting ATPase' at gnl|Prokka|SCLAV_SC2_1 position 3011897
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3024673
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3030480
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3030939
+[09:56:33] Possible /pseudo 'ISXo7 transposase' at gnl|Prokka|SCLAV_SC2_1 position 3032056
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3033782
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3035740
+[09:56:33] Possible /pseudo 'putative methyltransferase' at gnl|Prokka|SCLAV_SC2_1 position 3048291
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3066479
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3098776
+[09:56:33] Possible /pseudo 'Chaperone protein dnaK' at gnl|Prokka|SCLAV_SC2_1 position 3134238
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3152665
+[09:56:33] Possible /pseudo 'Putative peptide ABC transporter permease protein' at gnl|Prokka|SCLAV_SC2_1 position 3174221
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3187016
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3187678
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3234371
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3235021
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3236042
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3237370
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3238758
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3247420
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3252245
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3252620
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3273248
+[09:56:33] Possible /pseudo 'DNA polymerase III alpha subunit' at gnl|Prokka|SCLAV_SC2_1 position 3315339
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3321027
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3321230
+[09:56:33] Possible /pseudo 'Secreted protein' at gnl|Prokka|SCLAV_SC2_1 position 3336792
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3346779
+[09:56:33] Possible /pseudo 'Integral membrane protein' at gnl|Prokka|SCLAV_SC2_1 position 3460963
+[09:56:33] Possible /pseudo 'ABC transporter related protein' at gnl|Prokka|SCLAV_SC2_1 position 3471877
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3474777
+[09:56:33] Possible /pseudo 'Phenylacetic acid degradation protein' at gnl|Prokka|SCLAV_SC2_1 position 3485892
+[09:56:33] Possible /pseudo 'Phenylacetic acid degradation protein' at gnl|Prokka|SCLAV_SC2_1 position 3486605
+[09:56:33] Possible /pseudo 'Phenylacetic acid degradation protein' at gnl|Prokka|SCLAV_SC2_1 position 3486892
+[09:56:33] Possible /pseudo 'RNA polymerase sigma factor' at gnl|Prokka|SCLAV_SC2_1 position 3563843
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3570954
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3595063
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3595937
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3597704
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3610513
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3616854
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3617650
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3618393
+[09:56:33] Possible /pseudo 'CrcB protein' at gnl|Prokka|SCLAV_SC2_1 position 3663402
+[09:56:33] Possible /pseudo 'Alkaline d-peptidase' at gnl|Prokka|SCLAV_SC2_1 position 3731668
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3751121
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3839743
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3842664
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3852210
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3858407
+[09:56:33] Possible /pseudo 'Menaquinone biosynthetic enzyme' at gnl|Prokka|SCLAV_SC2_1 position 3866722
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3870625
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3871653
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3875911
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3890100
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3891161
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3893238
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3893914
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3896148
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3897777
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3916163
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3916653
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3924571
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3954308
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3954663
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3955153
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3955361
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 3957219
+[09:56:33] Possible /pseudo 'acyl-CoA dehydrogenase' at gnl|Prokka|SCLAV_SC2_1 position 3998531
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4043639
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4045801
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4046535
+[09:56:33] Possible /pseudo 'Peptidase S1 and S6, chymotrypsin/Hap' at gnl|Prokka|SCLAV_SC2_1 position 4086145
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4087913
+[09:56:33] Possible /pseudo 'Putative serine/threonine protein kinase' at gnl|Prokka|SCLAV_SC2_1 position 4299195
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4323369
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4350120
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4352102
+[09:56:33] Possible /pseudo 'Aldehyde dehydrogenase' at gnl|Prokka|SCLAV_SC2_1 position 4422354
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4425608
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4439249
+[09:56:33] Possible /pseudo 'Putative membrane protein' at gnl|Prokka|SCLAV_SC2_1 position 4458197
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4461218
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4475650
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4476054
+[09:56:33] Possible /pseudo 'RdlB protein' at gnl|Prokka|SCLAV_SC2_1 position 4486922
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4488111
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4509025
+[09:56:33] Possible /pseudo 'Secreted protein' at gnl|Prokka|SCLAV_SC2_1 position 4537277
+[09:56:33] Possible /pseudo 'Peptide ABC transporter ATP-binding protein' at gnl|Prokka|SCLAV_SC2_1 position 4613491
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4621961
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4647342
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4659183
+[09:56:33] Possible /pseudo 'ABC transporter system integral membrane protein' at gnl|Prokka|SCLAV_SC2_1 position 4667787
+[09:56:33] Possible /pseudo 'Protease' at gnl|Prokka|SCLAV_SC2_1 position 4676121
+[09:56:33] Possible /pseudo 'Putative ATP-dependent DNA helicase' at gnl|Prokka|SCLAV_SC2_1 position 4685451
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4695775
+[09:56:33] Possible /pseudo 'Sugar ABC transporter permease protein' at gnl|Prokka|SCLAV_SC2_1 position 4737452
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4753183
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4767618
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4799699
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4807430
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4809146
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4809537
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4809854
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4812893
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4898255
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4898975
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4902952
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4903347
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4905049
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4908577
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4908889
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4909140
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4909658
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 4910499
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5010644
+[09:56:33] Possible /pseudo 'Putative ABC transporter ATPase and permease component' at gnl|Prokka|SCLAV_SC2_1 position 5056082
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5069823
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5099485
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5155723
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5157375
+[09:56:33] Possible /pseudo 'Short-chain dehydrogenase/reductase SDR' at gnl|Prokka|SCLAV_SC2_1 position 5186772
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5249107
+[09:56:33] Possible /pseudo 'Signal peptidase I' at gnl|Prokka|SCLAV_SC2_1 position 5275586
+[09:56:33] Possible /pseudo 'Signal peptidase I' at gnl|Prokka|SCLAV_SC2_1 position 5276647
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5360124
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5364751
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5381184
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5420513
+[09:56:33] Possible /pseudo 'Glutamate transporter permease' at gnl|Prokka|SCLAV_SC2_1 position 5428434
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5437301
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5437574
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5466598
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5514926
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5515271
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5515546
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5517990
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5518568
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5518878
+[09:56:33] Possible /pseudo 'Non-ribosimal peptide synthetase' at gnl|Prokka|SCLAV_SC2_1 position 5553308
+[09:56:33] Possible /pseudo 'Non-ribosimal peptide synthetase' at gnl|Prokka|SCLAV_SC2_1 position 5559544
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5577165
+[09:56:33] Possible /pseudo 'Putative membrane protein' at gnl|Prokka|SCLAV_SC2_1 position 5599014
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5608514
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5636474
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5755688
+[09:56:33] Possible /pseudo 'Membrane translocator' at gnl|Prokka|SCLAV_SC2_1 position 5815646
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5836736
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5839696
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5850762
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5851529
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5863890
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5881003
+[09:56:33] Possible /pseudo 'Putative glutamate ABC transporter permease' at gnl|Prokka|SCLAV_SC2_1 position 5903594
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 5944393
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6024496
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6025560
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6026099
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6027148
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6080999
+[09:56:33] Possible /pseudo 'Putative secreted protein' at gnl|Prokka|SCLAV_SC2_1 position 6086078
+[09:56:33] Possible /pseudo 'Secreted protein' at gnl|Prokka|SCLAV_SC2_1 position 6093193
+[09:56:33] Possible /pseudo 'Secreted protein' at gnl|Prokka|SCLAV_SC2_1 position 6094392
+[09:56:33] Possible /pseudo 'Putative membrane protein' at gnl|Prokka|SCLAV_SC2_1 position 6098109
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6192088
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6192549
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6213342
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6221732
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6223176
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6236856
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6247580
+[09:56:33] Possible /pseudo 'Non-ribosomal peptide synthetase' at gnl|Prokka|SCLAV_SC2_1 position 6261923
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6283462
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6292102
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6293217
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6293935
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6379845
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6394998
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6412070
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6413414
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6414194
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6417463
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6427727
+[09:56:33] Possible /pseudo 'Non-ribosomal peptide synthetase' at gnl|Prokka|SCLAV_SC2_1 position 6441492
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6469048
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6469916
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6475135
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6489858
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6495015
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6506659
+[09:56:33] Possible /pseudo 'Glycosyl transferase' at gnl|Prokka|SCLAV_SC2_1 position 6519869
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6521972
+[09:56:33] Possible /pseudo 'Electron transfer flavoprotein' at gnl|Prokka|SCLAV_SC2_1 position 6551199
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6590793
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6594386
+[09:56:33] Possible /pseudo 'Putative membrane protein' at gnl|Prokka|SCLAV_SC2_1 position 6661151
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_1 position 6724362
+[09:56:33] Possible /pseudo 'Putative siderophore synthetase component' at gnl|Prokka|SCLAV_SC2_1 position 6728431
+[09:56:33] Possible /pseudo 'Putative siderophore synthetase component' at gnl|Prokka|SCLAV_SC2_1 position 6730248
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_3 position 60955
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_3 position 64738
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_3 position 71916
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_3 position 119466
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_4 position 112084
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_4 position 121495
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_4 position 122152
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_4 position 122685
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_4 position 123268
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_4 position 123480
+[09:56:33] Possible /pseudo 'regulatory protein' at gnl|Prokka|SCLAV_SC2_4 position 128050
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_4 position 133082
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_4 position 133966
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_4 position 226520
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_4 position 227511
+[09:56:33] Possible /pseudo 'DNA polymerase III alpha subunit' at gnl|Prokka|SCLAV_SC2_4 position 238023
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_4 position 252795
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_4 position 254650
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_4 position 255369
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_4 position 255806
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_4 position 256771
+[09:56:33] Possible /pseudo 'NADP oxidoreductase coenzyme F420-dependent' at gnl|Prokka|SCLAV_SC2_4 position 266411
+[09:56:33] Possible /pseudo 'DNA-binding protein' at gnl|Prokka|SCLAV_SC2_4 position 331514
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 8019
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 12038
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 12542
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 52912
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 66768
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 67229
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 105229
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 138441
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 139126
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 140419
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 141212
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 190539
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 228653
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 236473
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 237655
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 238337
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 239674
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 265235
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 265811
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 266169
+[09:56:33] Possible /pseudo 'Tn5045 transposase' at gnl|Prokka|SCLAV_SC2_5 position 300077
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 302256
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 305355
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 321855
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 322360
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 322842
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 323507
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 324297
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 343844
+[09:56:33] Possible /pseudo 'Peptidase S1 and S6' at gnl|Prokka|SCLAV_SC2_5 position 379263
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 382421
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 445136
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 547334
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 548073
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 549873
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 602378
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 606862
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 608867
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 621576
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 622951
+[09:56:33] Possible /pseudo 'Non-ribosomal peptide synthetase' at gnl|Prokka|SCLAV_SC2_5 position 670637
+[09:56:33] Possible /pseudo 'Non-ribosomal peptide synthetase' at gnl|Prokka|SCLAV_SC2_5 position 674914
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 689058
+[09:56:33] Possible /pseudo 'Non-ribosomal peptide synthetase' at gnl|Prokka|SCLAV_SC2_5 position 724671
+[09:56:33] Possible /pseudo 'Non-ribosomal peptide synthetase' at gnl|Prokka|SCLAV_SC2_5 position 728612
+[09:56:33] Possible /pseudo 'ABC transporter related protein' at gnl|Prokka|SCLAV_SC2_5 position 800711
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 823559
+[09:56:33] Possible /pseudo 'Hypothetical protein' at gnl|Prokka|SCLAV_SC2_5 position 828356
+[09:56:33] Found 840 unique /gene codes.
+[09:56:33] Fixed 4 duplicate /gene - tpg_1 tpg_2 tpg_3 tpg_4
+[09:56:33] Fixed 2 duplicate /gene - cvm6P_1 cvm6P_2
+[09:56:33] Fixed 4 duplicate /gene - tap_1 tap_2 tap_3 tap_4
+[09:56:33] Fixed 3 duplicate /gene - lexA_1 lexA_2 lexA_3
+[09:56:33] Fixed 2 duplicate /gene - wblE_1 wblE_2
+[09:56:33] Fixed 2 duplicate /gene - tnpA_1 tnpA_2
+[09:56:33] Fixed 2 duplicate /gene - hup_1 hup_2
+[09:56:33] Fixed 2 duplicate /gene - traR_1 traR_2
+[09:56:33] Fixed 2 duplicate /gene - fbiC_1 fbiC_2
+[09:56:33] Fixed 2 duplicate /gene - kdpB_1 kdpB_2
+[09:56:33] Fixed 2 duplicate /gene - cdd_1 cdd_2
+[09:56:33] Fixed 2 duplicate /gene - sidD_1 sidD_2
+[09:56:33] Fixed 2 duplicate /gene - agaB2_1 agaB2_2
+[09:56:33] Fixed 2 duplicate /gene - ligA_1 ligA_2
+[09:56:33] Fixed 2 duplicate /gene - blaC_1 blaC_2
+[09:56:33] Fixed 2 duplicate /gene - dapF_1 dapF_2
+[09:56:33] Fixed 16 colliding /gene names.
+[09:56:33] Adding /locus_tag identifiers
+[09:56:34] Assigned 6839 locus_tags to CDS and RNA features.
+[09:56:34] Writing outputs to /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2//
+[09:57:33] Generating annotation statistics file
+[09:57:33] Generating Genbank and Sequin files
+[09:57:33] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.12 from https://github.com/tseemann/prokka' -Z \/home\/ubuntu\/JTM_data\/BIV_lineage\/final_analysis\/SC2_final\/prokka_SC2\/\/PROKKA_02082022\.err -i \/home\/ubuntu\/JTM_data\/BIV_lineage\/final_analysis\/SC2_final\/prokka_SC2\/\/PROKKA_02082022\.fsa 2> /dev/null
+[09:58:09] Deleting unwanted file: /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2//errorsummary.val
+[09:58:09] Deleting unwanted file: /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2//PROKKA_02082022.dr
+[09:58:09] Deleting unwanted file: /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2//PROKKA_02082022.fixedproducts
+[09:58:09] Deleting unwanted file: /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2//PROKKA_02082022.ecn
+[09:58:09] Deleting unwanted file: /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2//PROKKA_02082022.val
+[09:58:09] Repairing broken .GBK output that tbl2asn produces...
+[09:58:09] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < \/home\/ubuntu\/JTM_data\/BIV_lineage\/final_analysis\/SC2_final\/prokka_SC2\/\/PROKKA_02082022\.gbf > \/home\/ubuntu\/JTM_data\/BIV_lineage\/final_analysis\/SC2_final\/prokka_SC2\/\/PROKKA_02082022\.gbk
+[09:58:10] Deleting unwanted file: /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2//PROKKA_02082022.gbf
+[09:58:10] Output files:
+[09:58:10] /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2/PROKKA_02082022.log
+[09:58:10] /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2/PROKKA_02082022.fna
+[09:58:10] /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2/PROKKA_02082022.gff
+[09:58:10] /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2/PROKKA_02082022.faa
+[09:58:10] /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2/PROKKA_02082022.ffn
+[09:58:10] /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2/PROKKA_02082022.tbl
+[09:58:10] /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2/PROKKA_02082022.fsa
+[09:58:10] /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2/PROKKA_02082022.tsv
+[09:58:10] /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2/PROKKA_02082022.txt
+[09:58:10] /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2/PROKKA_02082022.sqn
+[09:58:10] /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2/PROKKA_02082022.err
+[09:58:10] /home/ubuntu/JTM_data/BIV_lineage/final_analysis/SC2_final/prokka_SC2/PROKKA_02082022.gbk
+[09:58:10] Annotation finished successfully.
+[09:58:10] Walltime used: 7.63 minutes
+[09:58:10] If you use this result please cite the Prokka paper:
+[09:58:10] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[09:58:10] Type 'prokka --citation' for more details.
+[09:58:10] Thank you, come again.
